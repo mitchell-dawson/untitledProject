@@ -117,10 +117,9 @@ No: "pythonsport.maps.forest"
 ```
 
 ### Use brackets for multiline imports
-`import *` is not an option!
+`import *` is not an option, except for `__init__.py` files
 ```
 from Tkinter import (Tk, Frame, Button, Entry, Canvas, Text,
     LEFT, DISABLED, NORMAL, RIDGE, END)
-
 ```
 
