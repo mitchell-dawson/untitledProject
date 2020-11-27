@@ -1,0 +1,1 @@
+from projectName.subpackage_1 import moduleB

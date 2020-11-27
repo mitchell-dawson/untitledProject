@@ -1,0 +1,6 @@
+data/*
+venv/
+*projectName.egg-info
+*.vscode
+scripts/notebook/rough/*
+*__pycache__
