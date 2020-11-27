@@ -6,6 +6,16 @@ Template project for python data science projects
 virtualenv --python=/usr/bin/python3.6 untitledProject
 ```
 
+### Add virtual env activate to alias into `.bash_rc` file
+```
+alias untitledProject='source /path/to/project/venv/untitledProject/bin/activate'
+```
+
+### Install package with pip in dev mode
+```
+pip install -e ./
+```
+
 ### Set up `__init__.py` files
 [whats init for me?](https://towardsdatascience.com/whats-init-for-me-d70a312da583)
 
